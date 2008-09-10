@@ -1,0 +1,440 @@
+# Indonesian translation for vinagre
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the vinagre package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vinagre\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2008-04-07 18:37+0000\n"
+"PO-Revision-Date: 2008-09-10 19:29+0000\n"
+"Last-Translator: Fajran Iman Rusadi <fajran@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2008-09-10 19:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/vinagre.desktop.in.in.h:1 ../data/vinagre-file.desktop.in.in.h:1
+msgid "Access remote desktops"
+msgstr "Akses desktop jarak jauh"
+
+#: ../data/vinagre.desktop.in.in.h:2 ../data/vinagre-file.desktop.in.in.h:2
+#: ../src/vinagre-main.c:134
+msgid "Remote Desktop Viewer"
+msgstr "Penampil Desktop Jarak Jauh"
+
+#: ../data/vinagre.glade.h:1
+msgid "<b>Editing a bookmark</b>"
+msgstr "<b>Sunting bookmark</b>"
+
+#: ../data/vinagre.glade.h:2
+msgid "<b>Enter a name for this connection</b>"
+msgstr "<b>Masukkan nama untuk koneksi ini</b>"
+
+#: ../data/vinagre.glade.h:3
+msgid ""
+"<b>In order to connect on this machine, a password is required. Please, "
+"supply it.</b>"
+msgstr ""
+"<b>Anda memerlukan kata sandi agar dapat terhubung dengan mesin ini.</b>"
+
+#: ../data/vinagre.glade.h:4
+msgid "<b>Which machine do you want to connect to?</b>"
+msgstr "<b>Mesin mana yang ingin Anda hubungi?</b>"
+
+#: ../data/vinagre.glade.h:5
+msgid "Editing a bookmark"
+msgstr "Menyunting bookmark"
+
+#: ../data/vinagre.glade.h:6 ../src/vinagre-tab.c:682
+msgid "Host:"
+msgstr "Komputer:"
+
+#: ../data/vinagre.glade.h:7
+msgid "Saving to bookmarks"
+msgstr "Menyimpan ke bookmark"
+
+#: ../data/vinagre.glade.h:8
+msgid "_Host:"
+msgstr "Komputer:"
+
+#: ../data/vinagre.glade.h:9
+msgid "_Name:"
+msgstr "_Nama:"
+
+#: ../data/vinagre.glade.h:10
+msgid "_Password:"
+msgstr "Kata sandi:"
+
+#: ../data/vinagre.glade.h:11
+msgid "_Port:"
+msgstr "Port:"
+
+#: ../data/vinagre.glade.h:12
+msgid "_Remember this password"
+msgstr "Ingat kata sandi ini?"
+
+#: ../data/vinagre.schemas.in.h:1
+msgid "The handler for \"vnc://\" URLs"
+msgstr "Penangan URL \"vnc://\""
+
+#: ../data/vinagre-mime.xml.in.h:1
+msgid "Remote Desktop (VNC) file"
+msgstr "Remote Desktop (VNC) file"
+
+#: ../data/vinagre-mime.xml.in.h:2
+msgid "Remote Desktop Connection"
+msgstr "Remote Desktop Connection"
+
+#: ../src/vinagre-bookmarks.c:58 ../src/vinagre-bookmarks.c:76
+#, c-format
+msgid "Error while saving bookmarks: %s"
+msgstr "Error ketika menyimpan bookmark: %s"
+
+#: ../src/vinagre-bookmarks.c:111
+#, c-format
+msgid "Error while initializing bookmarks: %s"
+msgstr "Error ketika menyiapkan bookmark: %s"
+
+#: ../src/vinagre-bookmarks.c:282
+msgid "Confirm removal?"
+msgstr "Konfirmasi penghapusan?"
+
+#: ../src/vinagre-bookmarks.c:285
+#, c-format
+msgid "Are you sure you want to exclude <i>%s</i> from bookmarks?"
+msgstr "Apakah Anda yakin untuk menghapus <i>%s</i> dari bookmark?"
+
+#: ../src/vinagre-bookmarks.c:296
+#, c-format
+msgid "Error while removing %s from bookmarks: %s"
+msgstr "Error ketika menghapus %s dari bookmark: %s"
+
+#: ../src/vinagre-commands.c:90
+msgid "Choose the file"
+msgstr "Pilih berkas"
+
+#: ../src/vinagre-commands.c:101 ../src/vinagre-tab.c:765
+msgid "Supported formats"
+msgstr "Format yang didukung"
+
+#: ../src/vinagre-commands.c:133
+msgid "The following file could not be opened:"
+msgid_plural "The following files could not be opened:"
+msgstr[0] "Berkas berikut tidak dapat dibuka:"
+
+#: ../src/vinagre-commands.c:383
+msgid "Vinagre is a VNC client for the GNOME Desktop"
+msgstr "Vinagre adalah aplikasi klien VNC untuk Desktop GNOME"
+
+#: ../src/vinagre-commands.c:386
+msgid ""
+"Vinagre is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"Vinagre adalah perangkat lunak bebas; Anda dapat mendistribusikannya "
+"dan/atau memodifikasinya di bawah aturan dalam GNU General Public License "
+"yang dipublikasikan oleh Free Software Foundation; dengan versi 2 dari "
+"lisensi ini atau (jika mau) versi yang lebih baru."
+
+#: ../src/vinagre-commands.c:390
+msgid ""
+"Vinagre is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../src/vinagre-commands.c:394
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Anda seharusnya telah mendapatkan salinan dari GNU General Public License "
+"dalam program ini. Jika belum, lihat <http://www.gnu.org/licenses/>."
+
+#: ../src/vinagre-commands.c:416
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Fajran Iman Rusadi https://launchpad.net/~fajran"
+
+#: ../src/vinagre-commands.c:419
+msgid "Vinagre Website"
+msgstr "Situs Web Vinagre"
+
+#: ../src/vinagre-connect.c:53
+msgid "Choose a VNC Server"
+msgstr "Pilih Server VNC"
+
+#: ../src/vinagre-connection.c:161
+#, c-format
+msgid "The protocol %s is not supported."
+msgstr "Protokol %s tidak didukung."
+
+#: ../src/vinagre-fav.c:382
+msgid "Image"
+msgstr "Gambar"
+
+#: ../src/vinagre-fav.c:389
+msgid "Name"
+msgstr "Nama"
+
+#: ../src/vinagre-fav.c:437
+msgid "Bookmarks"
+msgstr "Bookmark"
+
+#: ../src/vinagre-fav.c:445
+msgid "Hide bookmarks"
+msgstr "Sembunyikan bookmark"
+
+#: ../src/vinagre-main.c:42
+msgid "Opens a .vnc file"
+msgstr "Buka berkas .vnc"
+
+#: ../src/vinagre-main.c:42
+msgid "filename"
+msgstr "nama-berkas"
+
+#: ../src/vinagre-main.c:46
+msgid "[server:port]"
+msgstr "[server:port]"
+
+#: ../src/vinagre-main.c:71 ../src/vinagre-main.c:90
+#: ../src/vinagre-window.c:284
+msgid "Unknown error"
+msgstr "Error tidak diketahui"
+
+#: ../src/vinagre-main.c:101 ../src/vinagre-window.c:283
+msgid "The following error has occurred:"
+msgid_plural "The following errors have occurred:"
+msgstr[0] "Error berikut telah terjadi:"
+
+#. Setup command line options
+#: ../src/vinagre-main.c:121
+msgid "- VNC Client for GNOME"
+msgstr "- Klien VNC untuk GNOME"
+
+#: ../src/vinagre-main.c:129
+msgid ""
+"Run 'vinagre --help' to see a full list of available command line options"
+msgstr "Jalankan 'vinagre --help' untuk melihat seluruh pilihan"
+
+#: ../src/vinagre-notebook.c:98
+#, c-format
+msgid "Connection to host \"%s\" was closed."
+msgstr "Koneksi dengan komputer \"%s\" tertutup."
+
+#: ../src/vinagre-notebook.c:124
+msgid "Connecting..."
+msgstr "Membuka koneksi..."
+
+#: ../src/vinagre-notebook.c:148
+msgid "Close connection"
+msgstr "Tutup koneksi"
+
+#: ../src/vinagre-prefs-manager.c:124
+msgid "Cannot initialize preferences manager."
+msgstr "Tidak dapat menyiapkan pengatur setingan."
+
+#: ../src/vinagre-prefs-manager.c:420
+#, c-format
+msgid "Expected `%s' got `%s' for key %s"
+msgstr "Seharusnya `%s', ditemukan `%s' pada kunci %s"
+
+#: ../src/vinagre-tab.c:255
+msgid "Error connecting to host."
+msgstr "Gagal membuat koneksi dengan komputer tujuan."
+
+#: ../src/vinagre-tab.c:290
+#, c-format
+msgid "Authentication to host \"%s\" has failed"
+msgstr "Otentikasi ke komputer \"%s\" gagal dilakukan"
+
+#: ../src/vinagre-tab.c:318
+#, c-format
+msgid "Authentication method to host \"%s\" is unsupported. (%u)"
+msgstr "Metode otentikasi ke komputer \"%s\" tidak didukung. (%u)"
+
+#: ../src/vinagre-tab.c:374
+msgid "Error saving recent connection."
+msgstr "Gagal menyimpan koneksi terakhir."
+
+#: ../src/vinagre-tab.c:405
+msgid "Error saving the password on the keyring."
+msgstr "Gagal menyimpan kata sandi dalam keyring."
+
+#: ../src/vinagre-tab.c:465 ../src/vinagre-tab.c:561
+msgid "Press Ctrl+Alt to grab the cursor"
+msgstr "Tekan Ctrl+Alt untuk mengendalikan cursor"
+
+#: ../src/vinagre-tab.c:540
+msgid "Press Ctrl+Alt to release the cursor"
+msgstr "Tekan Ctrl+Alt untuk melepaskan cursor"
+
+#: ../src/vinagre-tab.c:681
+msgid "Desktop Name:"
+msgstr "Nama Desktop:"
+
+#: ../src/vinagre-tab.c:683
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/vinagre-tab.c:684
+msgid "Dimensions:"
+msgstr "Dimensi:"
+
+#: ../src/vinagre-tab.c:751
+#, c-format
+msgid "Screenshot of %s"
+msgstr "Tangkapan layar dari %s"
+
+#: ../src/vinagre-tab.c:754
+msgid "Save Screenshot"
+msgstr "Simpan tangkapan layar"
+
+#. Toplevel
+#: ../src/vinagre-ui.h:33
+msgid "_Machine"
+msgstr "_Mesin"
+
+#: ../src/vinagre-ui.h:34
+msgid "_Edit"
+msgstr "Sunting"
+
+#: ../src/vinagre-ui.h:35
+msgid "_View"
+msgstr "Tampilan"
+
+#: ../src/vinagre-ui.h:36 ../src/vinagre-ui.h:97
+msgid "_Bookmarks"
+msgstr "_Bookmark"
+
+#: ../src/vinagre-ui.h:37
+msgid "_Help"
+msgstr "Bantuan"
+
+#: ../src/vinagre-ui.h:41
+msgid "Connect into a remote machine"
+msgstr "Buka koneksi dengan mesin jarak jauh"
+
+#: ../src/vinagre-ui.h:43
+msgid "Open a .VNC file"
+msgstr "Buka berkas .VNC"
+
+#: ../src/vinagre-ui.h:45
+msgid "Quit the program"
+msgstr "Keluar dari aplikasi"
+
+#. Bookmarks menu
+#: ../src/vinagre-ui.h:48
+msgid "_Open bookmark"
+msgstr "Buka b_ookmark"
+
+#: ../src/vinagre-ui.h:49
+msgid "Connect into this machine"
+msgstr "Buat koneksi dengan mesin ini"
+
+#: ../src/vinagre-ui.h:50
+msgid "_Edit bookmark"
+msgstr "Sunting bookmark"
+
+#: ../src/vinagre-ui.h:51
+msgid "Edit the details of selected bookmark"
+msgstr "Sunting rincian dari bookmark yang dipilih"
+
+#: ../src/vinagre-ui.h:52
+msgid "_Remove from bookmarks"
+msgstr "Hapus dari bookma_rk"
+
+#: ../src/vinagre-ui.h:53
+msgid "Remove current selected connection from bookmarks"
+msgstr "Hapus koneksi yang sekarang dipilih dari bookmark"
+
+#. Help menu
+#: ../src/vinagre-ui.h:56
+msgid "_Contents"
+msgstr "Bantuan"
+
+#: ../src/vinagre-ui.h:57
+msgid "Open the vinagre manual"
+msgstr "Buka dokumen petunjuk vinagre"
+
+#: ../src/vinagre-ui.h:59
+msgid "About this application"
+msgstr "Tentang aplikasi ini"
+
+#: ../src/vinagre-ui.h:66
+msgid "Close the current connection"
+msgstr "Tutup koneksi ini"
+
+#: ../src/vinagre-ui.h:67
+msgid "C_lose All"
+msgstr "Tutup Semua"
+
+#: ../src/vinagre-ui.h:68
+msgid "Close all active connections"
+msgstr "Tutup seluruh koneksi aktif"
+
+#. Bookmarks menu
+#: ../src/vinagre-ui.h:71
+msgid "_Add to bookmarks"
+msgstr "M_asukkan ke bookmark"
+
+#: ../src/vinagre-ui.h:72
+msgid "Add current connection to your bookmarks"
+msgstr "Masukkan koneksi ini ke bookmark"
+
+#. Machine menu
+#: ../src/vinagre-ui.h:79
+msgid "Take screenshot"
+msgstr "Ambil tangkapan layar"
+
+#: ../src/vinagre-ui.h:80
+msgid "Take a screenshot of active connection"
+msgstr "Ambil tangkapan layar dari koneksi yang aktif"
+
+#: ../src/vinagre-ui.h:84
+msgid "View the current machine in full screen"
+msgstr "Lihat mesin ini dengan layar penuh"
+
+#: ../src/vinagre-ui.h:89
+msgid "_Toolbar"
+msgstr "_Toolbar"
+
+#: ../src/vinagre-ui.h:90
+msgid "Show or hide the toolbar"
+msgstr "Tampilkan atau sembunyikan toolbar"
+
+#: ../src/vinagre-ui.h:93
+msgid "_Statusbar"
+msgstr "_Statusbar"
+
+#: ../src/vinagre-ui.h:94
+msgid "Show or hide the statusbar"
+msgstr "Tampilkan atau sembunyikan statusbar"
+
+#: ../src/vinagre-ui.h:98
+msgid "Show or hide the bookmarks panel"
+msgstr "Tampilkan atau sembunyikan panel bookmark"
+
+#: ../src/vinagre-window.c:401
+#, c-format
+msgid "Could not merge vinagre-ui.xml: %s"
+msgstr "Tidak dapat menggabungkan vinagre-ui.xml: %s"
+
+#: ../src/vinagre-window.c:429
+msgid "_Recent connections"
+msgstr "Koneksi te_rakhir"
+
+#. Translators: This is server:port, a statusbar tooltip when mouse is over a bookmark item on menu
+#: ../src/vinagre-window.c:578
+#, c-format
+msgid "Open %s:%d"
+msgstr "Buka %s:%d"
