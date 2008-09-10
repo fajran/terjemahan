@@ -1,0 +1,1102 @@
+# Indonesian translation for transmission
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the transmission package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: transmission\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2008-07-09 19:27+0000\n"
+"PO-Revision-Date: 2008-09-10 10:25+0000\n"
+"Last-Translator: Fajran Iman Rusadi <fajran@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2008-09-10 14:52+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gtk/transmission.desktop.in.h:1
+msgid "BitTorrent Client"
+msgstr "Aplikasi BitTorrent"
+
+#: ../gtk/transmission.desktop.in.h:2
+msgid "Download and share files over BitTorrent"
+msgstr "Unduh dan berbagi berkas melalui BitTorrent"
+
+#: ../gtk/transmission.desktop.in.h:3
+msgid "Transmission BitTorrent Client"
+msgstr "Aplikasi BitTorrent Transmission"
+
+#: ../gtk/actions.c:48
+msgid "_High"
+msgstr "Tinggi"
+
+#: ../gtk/actions.c:49
+msgid "_Normal"
+msgstr "_Normal"
+
+#: ../gtk/actions.c:50
+msgid "_Low"
+msgstr "Rendah"
+
+#: ../gtk/actions.c:64
+msgid "Sort by _Activity"
+msgstr "Urut berdasar _Aktivitas"
+
+#: ../gtk/actions.c:65
+msgid "Sort by _Date Added"
+msgstr "Urut berdasar Tanggal Torrent _Ditambahkan"
+
+#: ../gtk/actions.c:66
+msgid "Sort by _Name"
+msgstr "Urut berdasar _Nama"
+
+#: ../gtk/actions.c:67
+msgid "Sort by _Progress"
+msgstr "Urut berdasar Kemajuan"
+
+#: ../gtk/actions.c:68
+msgid "Sort by _State"
+msgstr "Urut berdasar Status"
+
+#: ../gtk/actions.c:69
+msgid "Sort by _Tracker"
+msgstr "Urut berdasar _Tracker"
+
+#: ../gtk/actions.c:86
+msgid "Show _Main Window"
+msgstr "Tampilkan Jendela Utama"
+
+#: ../gtk/actions.c:88
+msgid "Show Message _Log"
+msgstr "Tampi_lkan Catatan Pesan"
+
+#: ../gtk/actions.c:102
+msgid "_Minimal View"
+msgstr "Tampilan _Minimalis"
+
+#: ../gtk/actions.c:104
+msgid "_Reverse Sort Order"
+msgstr "Urut te_rbalik"
+
+#: ../gtk/actions.c:106
+msgid "Show _Filter Bar"
+msgstr "Tampilkan _Filter Bar"
+
+#: ../gtk/actions.c:108
+msgid "Show _Status Bar"
+msgstr "Tampilkan _Status Bar"
+
+#: ../gtk/actions.c:110
+msgid "Show _Toolbar"
+msgstr "Tampilkan _Toolbar"
+
+#: ../gtk/actions.c:115
+msgid "_Torrent"
+msgstr "_Torrent"
+
+#: ../gtk/actions.c:116
+msgid "_View"
+msgstr "_Tampilan"
+
+#: ../gtk/actions.c:117
+msgid "_Sort Torrents By"
+msgstr "Urutkan Torrent berda_sarkan"
+
+#: ../gtk/actions.c:118
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../gtk/actions.c:119
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../gtk/actions.c:120
+msgid "_Priority"
+msgstr "_Prioritas"
+
+#: ../gtk/actions.c:122 ../gtk/dialogs.c:87
+msgid "Open Torrent"
+msgstr "Buka Torrent"
+
+#: ../gtk/actions.c:124
+msgid "_Start"
+msgstr "_Mulai"
+
+#: ../gtk/actions.c:125
+msgid "_Statistics"
+msgstr "_Statistik"
+
+#: ../gtk/actions.c:127
+msgid "_Verify Local Data"
+msgstr "Periksa Data Lokal"
+
+#: ../gtk/actions.c:129
+msgid "_Pause"
+msgstr "_Stop"
+
+#: ../gtk/actions.c:131
+msgid "_Remove"
+msgstr "Hapus"
+
+#: ../gtk/actions.c:133
+msgid "Create _New Torrent"
+msgstr "Buat Torrent Baru"
+
+#: ../gtk/actions.c:135
+msgid "_Close"
+msgstr "Tutup"
+
+#: ../gtk/actions.c:137
+msgid "_Quit"
+msgstr "Keluar"
+
+#: ../gtk/actions.c:139
+msgid "Select _All"
+msgstr "Pilih Semu_a"
+
+#: ../gtk/actions.c:141
+msgid "Dese_lect All"
+msgstr "Kosongkan Pilihan"
+
+#: ../gtk/actions.c:145
+msgid "_Details"
+msgstr "Informasi"
+
+#: ../gtk/actions.c:145
+msgid "Torrent Details"
+msgstr "Informasi Torrent"
+
+#: ../gtk/actions.c:147
+msgid "_About Transmission"
+msgstr "Tent_ang Transmission"
+
+#: ../gtk/actions.c:149
+msgid "Ask Tracker for _More Peers"
+msgstr "_Minta Tambahan Peer ke Tracker"
+
+#: ../gtk/conf.c:62
+#, c-format
+msgid ""
+"Failed to create the directory %s:\n"
+"%s"
+msgstr ""
+"Gagal membuat direktori %s:\n"
+"%s"
+
+#: ../gtk/conf.c:90
+#, c-format
+msgid ""
+"Failed to open the file %s for writing:\n"
+"%s"
+msgstr ""
+"Gagal menulisi berkas %s:\n"
+"%s"
+
+#: ../gtk/conf.c:106
+#, c-format
+msgid "Another copy of %s is already running."
+msgstr "Aplikasi %s sedang berjalan."
+
+#: ../gtk/conf.c:108
+#, c-format
+msgid ""
+"Failed to lock the file %s:\n"
+"%s"
+msgstr ""
+"Gagal mengunci berkas %s:\n"
+"%s"
+
+#: ../gtk/dialogs.c:94
+msgid "Automatically _start torrent"
+msgstr "Jalankan torrent _secara otomatis"
+
+#: ../gtk/dialogs.c:96
+msgid "Use alternate _download directory"
+msgstr "Gunakan direktori unduhan alternatif"
+
+#: ../gtk/dialogs.c:100
+msgid "Choose a download directory"
+msgstr "Pilih direktori unduhan"
+
+#: ../gtk/dialogs.c:129
+msgid "Torrent files"
+msgstr "Berkas torrent"
+
+#: ../gtk/dialogs.c:131
+msgid "All files"
+msgstr "Semua berkas"
+
+#: ../gtk/dialogs.c:262
+msgid "Choose a directory"
+msgstr "Pilih direktori"
+
+#: ../gtk/dialogs.c:408
+#, c-format
+msgid "<b>Really Quit %s?</b>"
+msgstr "<b>Keluar dari %s?</b>"
+
+#: ../gtk/dialogs.c:412
+msgid "This will close all active torrents."
+msgstr "Ini akan menutup seluruh torrent yang aktif."
+
+#: ../gtk/dialogs.c:420
+msgid "_Don't Ask Me This Again"
+msgstr "Jangan tanyakan hal ini lagi."
+
+#: ../gtk/ipc.c:197 ../gtk/ipc.c:229
+#, c-format
+msgid "Failed to set up IPC: %s"
+msgstr "Gagal menyiapkan IPC: %s"
+
+#: ../gtk/ipc.c:309
+#, c-format
+msgid "Failed to set up socket: %s"
+msgstr "Gagal menyiapkan soket: %s"
+
+#: ../gtk/ipc.c:332
+#, c-format
+msgid "Failed to create socket: %s"
+msgstr "Gagal membuat soket: %s"
+
+#: ../gtk/ipc.c:341
+#, c-format
+msgid "Failed to connect to %s: %s"
+msgstr "Gagal menghubungi %s: %s"
+
+#: ../gtk/ipc.c:431 ../gtk/ipc.c:467
+msgid "Bad IPC protocol version"
+msgstr "Versi protokol IPC tidak sesuai"
+
+#: ../gtk/ipc.c:434 ../gtk/ipc.c:470
+msgid "IPC protocol parse error"
+msgstr "Error memproses protokol IPC"
+
+#: ../gtk/ipc.c:437 ../gtk/ipc.c:473
+#, c-format
+msgid "IPC parsing failed: %s"
+msgstr "Gagal memproses IPC: %s"
+
+#: ../gtk/main.c:245
+msgid "Start with all torrents paused"
+msgstr "Mulai dengan torrent yang terhenti"
+
+#: ../gtk/main.c:247
+msgid "Request that the running instance quit"
+msgstr "Menutup aplikasi yang sedang berjalan"
+
+#: ../gtk/main.c:250
+msgid "Start minimized in system tray"
+msgstr "Sembunyikan di tray saat aplikasi dimulai"
+
+#: ../gtk/main.c:263
+msgid "Transmission"
+msgstr "Transmission"
+
+#: ../gtk/main.c:268
+msgid "[torrent files]"
+msgstr "[berkas torrent]"
+
+#: ../gtk/main.c:593
+msgid "Closing Connections"
+msgstr "Menutup Koneksi"
+
+#: ../gtk/main.c:593
+msgid "Sending upload/download totals to tracker..."
+msgstr "Mengirim total unduh/unggah ke tracker..."
+
+#: ../gtk/main.c:599
+msgid "_Quit Immediately"
+msgstr "Keluar Saat Ini Juga"
+
+#: ../gtk/main.c:733
+#, c-format
+msgid ""
+"Failed to load torrent file:\n"
+"%s"
+msgid_plural ""
+"Failed to load torrent files:\n"
+"%s"
+msgstr[0] ""
+"Gagal membuka berkas torrent:\n"
+"%s"
+
+#: ../gtk/main.c:903
+msgid "A fast and easy BitTorrent client"
+msgstr "Aplikasi BitTorrent yang cepat dan mudah"
+
+#: ../gtk/main.c:906
+msgid "Copyright 2005-2008 The Transmission Project"
+msgstr "Hak Cipta 2005-2008 The Transmission Project"
+
+#: ../gtk/main.c:913
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Fajran Iman Rusadi https://launchpad.net/~fajran\n"
+"  rotyyu https://launchpad.net/~rotua-hd"
+
+#: ../gtk/makemeta-ui.c:96
+msgid "Torrent creation aborted."
+msgstr "Pembuatan torrent dibatalkan."
+
+#: ../gtk/makemeta-ui.c:97
+msgid "Torrent creation failed."
+msgstr "Pembuatan torrent gagal."
+
+#: ../gtk/makemeta-ui.c:104
+msgid "Torrent Created"
+msgstr "Torrent telah Dibuat"
+
+#: ../gtk/makemeta-ui.c:205 ../gtk/torrent-inspector.c:1393
+msgid "File"
+msgid_plural "Files"
+msgstr[0] "Berkas"
+
+#: ../gtk/makemeta-ui.c:211
+msgid "Piece"
+msgid_plural "Pieces"
+msgstr[0] "Potongan"
+
+#: ../gtk/makemeta-ui.c:235
+msgid "Create New Torrent"
+msgstr "Buat Torrent Baru"
+
+#: ../gtk/makemeta-ui.c:249 ../gtk/tr_window.c:435
+msgid "Files"
+msgstr "Berkas"
+
+#: ../gtk/makemeta-ui.c:252
+msgid "File _Type"
+msgstr "_Tipe Berkas"
+
+#: ../gtk/makemeta-ui.c:254
+msgid "Directory"
+msgstr "Direktori"
+
+#: ../gtk/makemeta-ui.c:256
+msgid "Single File"
+msgstr "Berkas Tunggal"
+
+#: ../gtk/makemeta-ui.c:260
+msgid "_File"
+msgstr "Berkas"
+
+#: ../gtk/makemeta-ui.c:273 ../gtk/makemeta-ui.c:310
+msgid "No Files Selected"
+msgstr "Tidak Ada Berkas yang Dimasukkan"
+
+#: ../gtk/makemeta-ui.c:287 ../gtk/tr_window.c:148
+msgid "Torrent"
+msgstr "Torrent"
+
+#: ../gtk/makemeta-ui.c:290
+#, c-format
+msgid "Private to this Tracker"
+msgstr "Jadikan torrent privat"
+
+#: ../gtk/makemeta-ui.c:293
+msgid "Announce _URL"
+msgstr "URL Pengumuman"
+
+#: ../gtk/makemeta-ui.c:298
+msgid "Commen_t"
+msgstr "Komen_tar"
+
+#: ../gtk/msgwin.c:160 ../gtk/msgwin.c:174
+#, c-format
+msgid "Error writing to \"%s\": %s"
+msgstr "Error menulisi \"%s\": \"%s\""
+
+#: ../gtk/msgwin.c:191
+msgid "Save Log"
+msgstr "Simpan Catatan"
+
+#: ../gtk/msgwin.c:216
+msgid "Error"
+msgstr "Error"
+
+#: ../gtk/msgwin.c:217
+msgid "Info"
+msgstr "Informasi"
+
+#: ../gtk/msgwin.c:218
+msgid "Debug"
+msgstr "Debug"
+
+#: ../gtk/msgwin.c:234
+msgid "Message Log"
+msgstr "Catatan Pesan"
+
+#: ../gtk/msgwin.c:258
+msgid "Level "
+msgstr "Level "
+
+#: ../gtk/msgwin.c:259 ../gtk/msgwin.c:290
+msgid "Select the debug filter level."
+msgstr "Pilih tingkat filter debug."
+
+#: ../gtk/stats.c:44 ../gtk/torrent-inspector.c:870 ../gtk/util.c:57
+#: ../gtk/util.c:80
+msgid "None"
+msgstr "Tidak ada"
+
+#: ../gtk/stats.c:64
+#, c-format
+msgid "Started %d times"
+msgstr "Dijalankan %d kali"
+
+#: ../gtk/stats.c:90
+msgid "Statistics"
+msgstr "Statistik"
+
+#: ../gtk/stats.c:99
+msgid "Current Session"
+msgstr "Sesi saat ini"
+
+#: ../gtk/stats.c:102 ../gtk/stats.c:115 ../gtk/torrent-inspector.c:913
+msgid "Uploaded:"
+msgstr "Terunggah:"
+
+#: ../gtk/stats.c:104 ../gtk/stats.c:117 ../gtk/torrent-inspector.c:910
+msgid "Downloaded:"
+msgstr "Terunduh:"
+
+#: ../gtk/stats.c:106 ../gtk/stats.c:119 ../gtk/torrent-inspector.c:919
+msgid "Ratio:"
+msgstr "Rasio:"
+
+#: ../gtk/stats.c:108 ../gtk/stats.c:121
+msgid "Duration:"
+msgstr "Durasi"
+
+#: ../gtk/stats.c:110
+msgid "Cumulative"
+msgstr "Kumulatif"
+
+#: ../gtk/stats.c:112
+#, c-format
+msgid "Program started %d times"
+msgstr "Program dijalankan %d kali"
+
+#: ../gtk/torrent-cell-renderer.c:84
+#, c-format
+msgid "%s of %s (%.2f%%)"
+msgstr "%s dari %s (%.2f%%)"
+
+#: ../gtk/torrent-cell-renderer.c:90
+#, c-format
+msgid "%s of %s (%.2f%%), uploaded %s (Ratio: %.1f"
+msgstr "%s dari %s (%.2f%%), terunggah %s (Rasio: %.1f"
+
+#: ../gtk/torrent-cell-renderer.c:98
+#, c-format
+msgid "%s, uploaded %s (Ratio: %.1f)"
+msgstr "%s, terunggah %s (Rasio: %.1f)"
+
+#: ../gtk/torrent-cell-renderer.c:119
+#, c-format
+msgid "Down: %s, Up: %s"
+msgstr "Unduh: %s, Unggah: %s"
+
+#: ../gtk/torrent-cell-renderer.c:121
+#, c-format
+msgid "Down: %s"
+msgstr "Unduh: %s"
+
+#: ../gtk/torrent-cell-renderer.c:123
+#, c-format
+msgid "Up: %s"
+msgstr "Unggah: %s"
+
+#: ../gtk/torrent-cell-renderer.c:125
+msgid "Idle"
+msgstr "Idle"
+
+#: ../gtk/torrent-cell-renderer.c:138
+msgid "Paused"
+msgstr "Dihentikan"
+
+#: ../gtk/torrent-cell-renderer.c:142
+msgid "Waiting to Verify local data"
+msgstr "Menunggu pemeriksaan data lokal"
+
+#. [0...100]
+#: ../gtk/torrent-cell-renderer.c:146 ../gtk/tr_torrent.c:305
+#, c-format
+msgid "Verifying local data (%.1f%% tested)"
+msgstr "Memeriksa data lokal (%.1f%% teruji)"
+
+#: ../gtk/torrent-cell-renderer.c:155
+#, c-format
+msgid "Ratio: %.1f, "
+msgstr "Rasio: %.1f, "
+
+#: ../gtk/torrent-cell-renderer.c:194
+#, c-format
+msgid "Downloading from %d of %d connected peer"
+msgid_plural "Downloading from %d of %d connected peers"
+msgstr[0] "Mengunduh dari %d dari %d peer terhubung"
+
+#: ../gtk/torrent-cell-renderer.c:204
+#, c-format
+msgid "Seeding to %d of %d connected peer"
+msgid_plural "Seeding to %d of %d connected peers"
+msgstr[0] "Seeding ke %d dari %d peer terhubung"
+
+#: ../gtk/torrent-inspector.c:245
+msgid "Address"
+msgstr "Alamat"
+
+#: ../gtk/torrent-inspector.c:246
+msgid "Client"
+msgstr "Aplikasi"
+
+#: ../gtk/torrent-inspector.c:247
+msgid "%"
+msgstr "%"
+
+#: ../gtk/torrent-inspector.c:249
+msgid "Down"
+msgstr "Unduh"
+
+#: ../gtk/torrent-inspector.c:250
+msgid "Up"
+msgstr "Unggah"
+
+#: ../gtk/torrent-inspector.c:251
+msgid "Status"
+msgstr "Status"
+
+#: ../gtk/torrent-inspector.c:350
+msgid "Handshaking"
+msgstr "Mengawali koneksi"
+
+#: ../gtk/torrent-inspector.c:355
+msgid "Uploading to peer"
+msgstr "Mengirim data ke peer"
+
+#: ../gtk/torrent-inspector.c:357
+msgid "Peer wants our data"
+msgstr "Peer meminta data"
+
+#: ../gtk/torrent-inspector.c:359
+msgid "Refusing to send data to peer"
+msgstr "Menolak mengirim data ke peer"
+
+#: ../gtk/torrent-inspector.c:364
+msgid "Downloading from peer"
+msgstr "Mengambil data dari peer"
+
+#: ../gtk/torrent-inspector.c:366
+msgid "Requesting data from peer"
+msgstr "Meminta data dari peer"
+
+#: ../gtk/torrent-inspector.c:368
+msgid "Waiting to request data from peer"
+msgstr "Menunggu meminta data dari peer"
+
+#: ../gtk/torrent-inspector.c:370
+msgid "Peer will not send us data"
+msgstr "Peer tidak akan mengirim data"
+
+#: ../gtk/torrent-inspector.c:633
+msgid "Piece Availability"
+msgstr "Ketersediaan Potongan"
+
+#: ../gtk/torrent-inspector.c:656
+msgid "Connected Peers"
+msgstr "Peer Terhubung"
+
+#: ../gtk/torrent-inspector.c:673
+msgid "Seeders"
+msgstr "Seeders"
+
+#: ../gtk/torrent-inspector.c:681
+msgid "Leechers"
+msgstr "Leechers"
+
+#: ../gtk/torrent-inspector.c:689
+msgid "Completed"
+msgstr "Lengkap"
+
+#: ../gtk/torrent-inspector.c:724
+msgid "Torrent Information"
+msgstr "Informasi Torrent"
+
+#: ../gtk/torrent-inspector.c:727 ../gtk/tr_window.c:435
+msgid "Tracker"
+msgstr "Tracker"
+
+#: ../gtk/torrent-inspector.c:738
+msgid "Pieces"
+msgstr "Potongan"
+
+#: ../gtk/torrent-inspector.c:744
+msgid "Hash"
+msgstr "Hash"
+
+#: ../gtk/torrent-inspector.c:749
+msgid "Secure"
+msgstr "Aman"
+
+#: ../gtk/torrent-inspector.c:751
+msgid "Private Torrent, PEX disabled"
+msgstr "Torrent Privat, PEX dinonaktifkan"
+
+#: ../gtk/torrent-inspector.c:752
+msgid "Public Torrent"
+msgstr "Torrent Publik"
+
+#: ../gtk/torrent-inspector.c:756
+msgid "Comment"
+msgstr "Komentar"
+
+#: ../gtk/torrent-inspector.c:769
+msgid "Created By"
+msgstr "Dibuat Oleh"
+
+#: ../gtk/torrent-inspector.c:772
+msgid "Creator"
+msgstr "Pembuat"
+
+#: ../gtk/torrent-inspector.c:773
+msgid "N/A"
+msgstr "N/A"
+
+#: ../gtk/torrent-inspector.c:776
+msgid "Date"
+msgstr "Tanggal"
+
+#: ../gtk/torrent-inspector.c:783
+msgid "Location"
+msgstr "Lokasi"
+
+#: ../gtk/torrent-inspector.c:786
+msgid "Downloaded Data"
+msgstr "Lokasi Unduhan"
+
+#: ../gtk/torrent-inspector.c:791
+msgid "Torrent File Path"
+msgstr "Lokasi Berkas Torrent"
+
+#: ../gtk/torrent-inspector.c:798
+msgid "Torrent File Name"
+msgstr "Nama Berkas Torrent"
+
+#: ../gtk/torrent-inspector.c:845
+#, c-format
+msgid "%.1f%% (%.1f%% selected)"
+msgstr "%.1f%% (%.1f%% terpilih)"
+
+#: ../gtk/torrent-inspector.c:851
+#, c-format
+msgid "%s (%s verified)"
+msgstr "%s (%s terverifikasi)"
+
+#: ../gtk/torrent-inspector.c:897
+msgid "Transfer"
+msgstr "Transfer"
+
+#: ../gtk/torrent-inspector.c:901
+msgid "State:"
+msgstr "Status:"
+
+#: ../gtk/torrent-inspector.c:904
+msgid "Progress:"
+msgstr "Perkembangan:"
+
+#: ../gtk/torrent-inspector.c:907
+msgid "Have:"
+msgstr "Dimiliki:"
+
+#: ../gtk/torrent-inspector.c:916
+msgid "Failed DL:"
+msgstr "Gagal unduh:"
+
+#: ../gtk/torrent-inspector.c:922
+msgid "Swarm Rate:"
+msgstr "Rasio Swarm:"
+
+#: ../gtk/torrent-inspector.c:925
+msgid "Error:"
+msgstr "Error:"
+
+#: ../gtk/torrent-inspector.c:931
+msgid "Completeness:"
+msgstr "Kelengkapan:"
+
+#: ../gtk/torrent-inspector.c:934
+msgid "Dates"
+msgstr "Tanggal"
+
+#: ../gtk/torrent-inspector.c:938
+msgid "Added:"
+msgstr "Dimasukkan:"
+
+#: ../gtk/torrent-inspector.c:941
+msgid "Last Activity"
+msgstr "Aktivitas Terakhir"
+
+#: ../gtk/torrent-inspector.c:982 ../gtk/torrent-inspector.c:992
+#: ../gtk/torrent-inspector.c:1163
+msgid "High"
+msgstr "Tinggi"
+
+#: ../gtk/torrent-inspector.c:983 ../gtk/torrent-inspector.c:1165
+msgid "Normal"
+msgstr "Normal"
+
+#: ../gtk/torrent-inspector.c:984 ../gtk/torrent-inspector.c:993
+#: ../gtk/torrent-inspector.c:1167
+msgid "Low"
+msgstr "Rendah"
+
+#: ../gtk/torrent-inspector.c:1407
+msgid "Progress"
+msgstr "Perkembangan"
+
+#: ../gtk/torrent-inspector.c:1421
+msgid "Download"
+msgstr "Unduh"
+
+#: ../gtk/torrent-inspector.c:1431
+msgid "Priority"
+msgstr "Prioritas"
+
+#: ../gtk/torrent-inspector.c:1564 ../gtk/tr_prefs.c:307
+msgid "Speed Limits"
+msgstr "Batas Kecepatan"
+
+#: ../gtk/torrent-inspector.c:1567
+msgid "Limit _Download Speed (KiB/s):"
+msgstr "Batasi Kecepatan Un_duh (KiB/s):"
+
+#: ../gtk/torrent-inspector.c:1580
+msgid "Limit _Upload Speed (KiB/s):"
+msgstr "Batasi Kecepatan _Unggah (KiB/s):"
+
+#: ../gtk/torrent-inspector.c:1595 ../gtk/tr_prefs.c:345
+msgid "Peer Connections"
+msgstr "Koneksi Peer"
+
+#: ../gtk/torrent-inspector.c:1601
+msgid "Maximum connected peers:"
+msgstr "Jumlah maksimum peer terhubung:"
+
+#: ../gtk/torrent-inspector.c:1604
+msgid "_Stop Seeding at Ratio:"
+msgstr "Berhenti Mengirim Data pada Rasio:"
+
+#: ../gtk/torrent-inspector.c:1670
+#, c-format
+msgid "Details for %s (%s)"
+msgstr "Informasi untuk %s (%s)"
+
+#: ../gtk/torrent-inspector.c:1685
+msgid "_Activity"
+msgstr "_Aktivitas"
+
+#: ../gtk/torrent-inspector.c:1690
+msgid "_Peers"
+msgstr "_Peer"
+
+#: ../gtk/torrent-inspector.c:1694
+msgid "_Info"
+msgstr "_Info"
+
+#: ../gtk/torrent-inspector.c:1699
+msgid "_Files"
+msgstr "Berkas"
+
+#: ../gtk/torrent-inspector.c:1704
+msgid "_Options"
+msgstr "Pengaturan"
+
+#: ../gtk/tr_prefs.c:188
+msgid "Use the torrent file where it is"
+msgstr "Gunakan berkas torrent yang ada"
+
+#: ../gtk/tr_prefs.c:192
+msgid "Keep a copy of the torrent file"
+msgstr "Simpan salinan berkas torrent"
+
+#: ../gtk/tr_prefs.c:196
+msgid "Keep a copy and remove the original"
+msgstr "Simpan salinan berkas torrent dan hapus yang asli"
+
+#: ../gtk/tr_prefs.c:252
+msgid "Port is <b>open</b>"
+msgstr "Port <b>terbuka</b>"
+
+#: ../gtk/tr_prefs.c:253
+msgid "Port is <b>closed</b>"
+msgstr "Port <b>tertutup</b>"
+
+#: ../gtk/tr_prefs.c:266
+msgid "<i>Testing port...</i>"
+msgstr "<i>Menguji port...</i>"
+
+#: ../gtk/tr_prefs.c:294
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: ../gtk/tr_prefs.c:310
+msgid "_Limit Upload Speed (KiB/s)"
+msgstr "Batasi Kecepatan _Unggah (KiB/s)"
+
+#: ../gtk/tr_prefs.c:317
+msgid "Li_mit Download Speed (KiB/s)"
+msgstr "Batasi Kecepatan Unduh (KiB/s)"
+
+#: ../gtk/tr_prefs.c:325
+msgid "Downloads"
+msgstr "Unduh"
+
+#: ../gtk/tr_prefs.c:328
+msgid "P_rompt for download directory"
+msgstr "Tanyakan di_rektori penyimpanan"
+
+#: ../gtk/tr_prefs.c:336
+msgid "For torrents added _normally:"
+msgstr "Untuk torrent yang ditambahkan secara normal:"
+
+#: ../gtk/tr_prefs.c:340
+msgid "For torrents added from _command-line:"
+msgstr "Untuk torrent yang dimasukkan dari _command-line:"
+
+#: ../gtk/tr_prefs.c:349
+msgid "Global maximum connected peers:"
+msgstr "Maksimum jumlah keseluruhan peer terhubung:"
+
+#: ../gtk/tr_prefs.c:351
+msgid "Maximum connected peers for new torrents:"
+msgstr "Maksimum jumlah peer terhubung untuk torrent baru:"
+
+#: ../gtk/tr_prefs.c:355
+msgid "Network"
+msgstr "Jaringan"
+
+#: ../gtk/tr_prefs.c:358
+msgid "_Automatically map port"
+msgstr "Otom_atis memetakan port"
+
+#: ../gtk/tr_prefs.c:361
+msgid "NAT traversal uses either NAT-PMP or UPnP"
+msgstr "NAT traversal menggunakan NAT-PMP atau UPnP"
+
+#: ../gtk/tr_prefs.c:369
+msgid "Incoming TCP _Port"
+msgstr "Port TCP Masuk"
+
+#: ../gtk/tr_prefs.c:379
+msgid "Options"
+msgstr "Pengaturan"
+
+#: ../gtk/tr_prefs.c:382
+msgid "Use Peer _Exchange if Possible"
+msgstr "Gunakan Peer _Exchange jika Memungkinkan"
+
+#: ../gtk/tr_prefs.c:386
+msgid "_Ignore Unencrypted Peers"
+msgstr "Abaikan Peer Tidak Terenkripsi"
+
+#: ../gtk/tr_prefs.c:390
+msgid "Show an Icon in the System _Tray"
+msgstr "Tampilkan Ikon di _Tray Sistem"
+
+#: ../gtk/tr_prefs.c:394
+msgid "Confirm _quit"
+msgstr "Konfirmasi keluar aplikasi"
+
+#: ../gtk/tr_torrent.c:205
+#, c-format
+msgid "%s: not a valid torrent file"
+msgstr "%s: berkas torrent tidak valid"
+
+#: ../gtk/tr_torrent.c:208
+#, c-format
+msgid "%s: torrent is already open"
+msgstr "%s: torrent sudah dibuka"
+
+#: ../gtk/tr_torrent.c:249
+msgid "not a valid torrent file"
+msgstr "berkas torrent tidak valid"
+
+#: ../gtk/tr_torrent.c:252
+msgid "torrent is already open"
+msgstr "torrent sudah dibuka"
+
+#. [0...100]
+#: ../gtk/tr_torrent.c:300
+#, c-format
+msgid "Waiting to verify local data (%.1f%% tested)"
+msgstr "Menunggu pemeriksaan data lokal (%.1f%% teruji)"
+
+#: ../gtk/tr_torrent.c:310
+#, c-format
+msgid "Stalled (%.1f%%)"
+msgstr "Stalled (%.1f%%)"
+
+#: ../gtk/tr_torrent.c:314
+#, c-format
+msgid "%s remaining (%.1f%%)"
+msgstr "%s lagi (%.1f%%)"
+
+#: ../gtk/tr_torrent.c:320
+#, c-format
+msgid "Uploading to %d of %d peer"
+msgid_plural "Uploading to %d of %d peers"
+msgstr[0] "Mengirim ke %d dari %d peer"
+
+#: ../gtk/tr_torrent.c:327
+#, c-format
+msgid "Seeding to %d of %d peer"
+msgid_plural "Seeding to %d of %d peers"
+msgstr[0] "Seeding ke %d dari %d peer"
+
+#: ../gtk/tr_torrent.c:333
+#, c-format
+msgid "Stopped (%.1f%%)"
+msgstr "Dihentikan (%.1f%%)"
+
+#: ../gtk/tr_torrent.c:337
+#, c-format
+msgid "Unrecognized state: %d"
+msgstr "Status tidak diketahui: %d"
+
+#: ../gtk/tr_window.c:243
+msgid "Total Ratio"
+msgstr "Total Rasio"
+
+#: ../gtk/tr_window.c:244
+msgid "Session Ratio"
+msgstr "Rasio Sesi"
+
+#: ../gtk/tr_window.c:245
+msgid "Total Transfer"
+msgstr "Total Transfer"
+
+#: ../gtk/tr_window.c:246
+msgid "Session Transfer"
+msgstr "Sesi Transfer"
+
+#: ../gtk/tr_window.c:431
+msgid "A_ll"
+msgstr "Semua"
+
+#: ../gtk/tr_window.c:431
+msgid "_Active"
+msgstr "_Aktif"
+
+#: ../gtk/tr_window.c:432
+msgid "_Downloading"
+msgstr "Mengunduh"
+
+#: ../gtk/tr_window.c:432
+msgid "_Seeding"
+msgstr "_Seeding"
+
+#: ../gtk/tr_window.c:432
+msgid "_Paused"
+msgstr "Berhenti"
+
+#: ../gtk/tr_window.c:435
+msgid "Name"
+msgstr "Nama"
+
+#: ../gtk/tr_window.c:586
+#, c-format
+msgid "%d of %d Transfer"
+msgid_plural "%d of %d Transfers"
+msgstr[0] "%d dari %d Transfer"
+
+#: ../gtk/tr_window.c:591
+#, c-format
+msgid "%d Transfer"
+msgid_plural "%d Transfers"
+msgstr[0] "%d Transfer"
+
+#: ../gtk/tr_window.c:611 ../gtk/tr_window.c:624
+#, c-format
+msgid "Ratio: %.1f"
+msgstr "Rasio: %.1f"
+
+#: ../gtk/tr_window.c:616 ../gtk/tr_window.c:621
+#, c-format
+msgid "Down: %s  Up: %s"
+msgstr "Unduh: %s  Unggah: %s"
+
+#: ../gtk/util.c:60
+msgid "B"
+msgstr "B"
+
+#: ../gtk/util.c:60
+msgid "KiB"
+msgstr "KiB"
+
+#: ../gtk/util.c:60
+msgid "MiB"
+msgstr "MiB"
+
+#: ../gtk/util.c:60
+msgid "GiB"
+msgstr "GiB"
+
+#: ../gtk/util.c:60
+msgid "TiB"
+msgstr "TiB"
+
+#: ../gtk/util.c:61
+msgid "PiB"
+msgstr "PiB"
+
+#: ../gtk/util.c:61
+msgid "EiB"
+msgstr "EiB"
+
+#: ../gtk/util.c:61
+msgid "ZiB"
+msgstr "ZiB"
+
+#: ../gtk/util.c:61
+msgid "YiB"
+msgstr "YiB"
+
+#: ../gtk/util.c:84
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../gtk/util.c:99
+#, c-format
+msgid "%i %s"
+msgstr "%i %s"
+
+#: ../gtk/util.c:100 ../gtk/util.c:106
+msgid "sec"
+msgid_plural "secs"
+msgstr[0] "detik"
+
+#: ../gtk/util.c:104 ../gtk/util.c:110 ../gtk/util.c:116
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: ../gtk/util.c:105 ../gtk/util.c:112
+msgid "min"
+msgid_plural "mins"
+msgstr[0] "menit"
+
+#: ../gtk/util.c:111 ../gtk/util.c:118
+msgid "hr"
+msgid_plural "hrs"
+msgstr[0] "jam"
+
+#: ../gtk/util.c:117
+msgid "day"
+msgid_plural "days"
+msgstr[0] "hari"
