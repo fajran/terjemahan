@@ -1,0 +1,2 @@
+BSD License
+https://help.launchpad.net/Legal/BSDLicense
